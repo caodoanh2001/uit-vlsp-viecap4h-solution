@@ -1,5 +1,3 @@
-# uit-vlsp-viecap4h-solution
-
 # vieCap4H Challenge 2021: A transformer-based method for Healthcare Image Captioning in Vietnamese
 
 
