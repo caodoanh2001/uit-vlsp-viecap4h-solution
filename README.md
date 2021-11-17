@@ -3,6 +3,8 @@
 
 This repo GitHub contains our solution for vieCap4H Challenge 2021. In detail, we use grid features as visual presentation and pre-training a BERT-based language model from PhoBERT-based pre-trained model to obtain language presentation. Besides, we indicate a suitable schedule with the self-critical training sequence (SCST) technique to achieve the best results. Through experiments, we achieve an average of BLEU 30.3% on the public-test round and 28.9% on the private-test round, which ranks 3rd and 4th, respectively.
 
+![](https://i.imgur.com/LuJHJ83.png)
+
 **Figure 1.** An overview of our solution based on RSTNet
 
 ## 1. Data preparation
