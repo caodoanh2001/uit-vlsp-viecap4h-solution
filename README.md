@@ -28,6 +28,12 @@ Annotations must be converted to COCO format. We have already converted and it i
 
 ## 2. Training
 
+Vncorenlp service should be available via following command:
+
+```
+vncorenlp -Xmx2g data/VnCoreNLP-1.1.1.jar -p 9000 -a "wseg,pos,ner,parse"
+```
+
 Pre-training BERT-based model with `PhoBERT-based`
 ```
 python train_language.py \
@@ -77,3 +83,5 @@ Then, run the command line below for result reproduction:
 ```
 python test_viecap.py
 ```
+
+Note: make sure that `Vncorenlp` server is available when running `test_viecap.py`.
