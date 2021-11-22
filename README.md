@@ -61,13 +61,16 @@ The results can be obtained via command below:
 python test_viecap.py
 ```
 
-## 4. Pre-trained model
+## 4. Reproduction
 
-To implement our results on leaderboard, two pretrained models for BERT-based model and Transformer model can be downloaded via links below:
+To implement our results on leaderboard, two pretrained models for BERT-based model, Transformer model can be downloaded via links below:
 
 - [BERT-based language model](https://drive.google.com/file/d/1NlpAHVLGyX_SelHseNxjSiAmKj5942OR/view?usp=sharing), should be put in `saved_language_models` folder
 - [Transformer model](https://drive.google.com/file/d/11UsfZReuMU90FtY4aH7vwzLTaozcvmud/view?usp=sharing).
+
+Besides, we also prepared our vocabulary file used for training and sample submission to arrange the predicted captions like the organizer.
 - [Vocabulary](https://drive.google.com/file/d/1IYHSpwJMOg11IkhR5ALCRXiJHGI84oaL/view?usp=sharing)
+- [Sample submission](https://drive.google.com/file/d/1noKu57koburNq9u2nofRkq4Mof0jpyNG/view?usp=sharing)
 
 Then, run the command line below for result reproduction:
 
