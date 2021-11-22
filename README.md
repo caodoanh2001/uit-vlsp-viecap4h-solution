@@ -15,8 +15,6 @@ Install some necessary libraries via following command:
 pip install requirements.txt
 ```
 
-Note: We recommend running this source code on Google Colaboratory.
-
 ## 1. Data preparation
 
 The grid features of vieCap4H can be downloaded via links below:
