@@ -1,0 +1,5 @@
+transformers
+torch==1.5.0
+torchvision==0.3.0
+underthesea
+vncorenlp
