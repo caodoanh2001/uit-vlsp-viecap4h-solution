@@ -65,4 +65,12 @@ python test_viecap.py
 
 To implement our results on leaderboard, two pretrained models for BERT-based model and Transformer model can be downloaded via links below:
 
-*Updating...*
+- [BERT-based language model](https://drive.google.com/file/d/1NlpAHVLGyX_SelHseNxjSiAmKj5942OR/view?usp=sharing), should be put in `saved_language_models` folder
+- [Transformer model](https://drive.google.com/file/d/11UsfZReuMU90FtY4aH7vwzLTaozcvmud/view?usp=sharing).
+- [Vocabulary](https://drive.google.com/file/d/1IYHSpwJMOg11IkhR5ALCRXiJHGI84oaL/view?usp=sharing)
+
+Then, run the command line below for result reproduction:
+
+```
+python test_viecap.py
+```
