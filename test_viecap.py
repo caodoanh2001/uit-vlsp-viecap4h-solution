@@ -25,8 +25,8 @@ np.random.seed(1234)
 features_path = './X152++_VieCap_feature_test.hdf5'
 img_path = './images_public_test'
 annotation_folder = './annotations_VieCap'
-vocab_path = './backup_12_10_2021/vocab_2946.pkl'
-model_path = './backup_12_10_2021/rstnet_2946.pth'
+vocab_path = './vocab_2946.pkl'
+model_path = './rstnet_2946.pth'
 path_sample_submission = './sample_submission.json'
 device = 'cuda'
 batch_size = 40
