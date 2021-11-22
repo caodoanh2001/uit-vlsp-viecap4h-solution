@@ -7,6 +7,16 @@ This repo GitHub contains our solution for vieCap4H Challenge 2021. In detail, w
 
 **Figure 1.** An overview of our solution based on RSTNet
 
+## 0. Requirements
+
+Install some necessary libraries via following command:
+
+```
+pip install requirements.txt
+```
+
+Note: We recommend running this source code on Google Colaboratory.
+
 ## 1. Data preparation
 
 The grid features of vieCap4H can be downloaded via links below:
