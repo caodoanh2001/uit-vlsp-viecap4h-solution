@@ -12,7 +12,7 @@ This repo GitHub contains our solution for vieCap4H Challenge 2021. In detail, w
 Install some necessary libraries via following command:
 
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 ## 1. Data preparation
