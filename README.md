@@ -93,3 +93,21 @@ python test_viecap.py
 ```
 
 Note: make sure that `Vncorenlp` server is available when running `test_viecap.py`.
+
+If any parts of the source code are used, please acknowledge us:
+
+```
+@article{JCSCE,
+	author = {Bui Doanh and Trinh Truc and Nguyen Thuan and Nguyen Vu and Nguyen Vo},
+	title = { vieCap4H Challenge 2021: A transformer-based method for Healthcare Image Captioning in Vietnamese},
+	journal = {VNU Journal of Science: Computer Science and Communication Engineering},
+	volume = {38},
+	number = {2},
+	year = {2022},
+	keywords = {},
+	abstract = {The automatic image caption generation is attractive to both Computer Vision and Natural Language Processing research community because it lies in the gap between these two fields. Within the vieCap4H contest organized by VLSP 2021, we participate and present a Transformer-based solution for image captioning in the healthcare domain. In detail, we use grid features as visual presentation and pre-training a BERT-based language model from PhoBERT-base pre-trained model to obtain language presentation used in the Adaptive Decoder module in the RSTNet model. Besides, we indicate a suitable schedule with the self-critical training sequence (SCST) technique to achieve the best results. Through experiments, we achieve an average of 30.3% BLEU score on the public-test round and 28.9% on the private-test round, which ranks 3rd and 4th, respectively. Source code is available at https://github.com/caodoanh2001/uit-vlsp-viecap4h-solution.
+ },
+	issn = {2588-1086},	doi = {10.25073/2588-1086/vnucsce.371},
+	url = {//jcsce.vnu.edu.vn/index.php/jcsce/article/view/371}
+}
+```
